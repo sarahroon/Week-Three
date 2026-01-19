@@ -16,7 +16,7 @@ setTimeout(() => {
 
 const bombTimer = setTimeout(() => {
   console.log("BOOM!")
-}, 1000);
+}, 5000);
 
 // DEFUSE BOMB TIMER
 
@@ -24,22 +24,6 @@ const defuse = document.getElementById("defuseBtn");
 defuse.addEventListener("click", () => {
   clearTimeout(bombTimer);
 });
-
-// ARRAY
-
-const images = {
-  {
-  src: "image link",
-  alt: "image description",
-};
-{
-  src: "image link",
-  alt: "image description",
-};
-{
-  src: "image link",
-  alt: "image description",
-};
 
 
 
