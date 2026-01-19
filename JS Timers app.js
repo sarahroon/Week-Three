@@ -1,4 +1,4 @@
-// TIMER - using setInterval
+// TIMER - using setInterval for a regular-interval timer
 
 function say(Hello) {
   console.log("Hello world!");
@@ -12,7 +12,7 @@ setTimeout(() => {
   clearInterval(myInterval);
 }, 5000);
 
-// BOMB TIMER - using setTimeout
+// BOMB TIMER - using setTimeout for a countdown-style timer
 
 const bombTimer = setTimeout(() => {
   console.log("BOOM!")
