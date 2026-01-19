@@ -1,4 +1,4 @@
-// TIMER
+// TIMER - using setInterval
 
 function say(Hello) {
   console.log("Hello world!");
@@ -12,7 +12,7 @@ setTimeout(() => {
   clearInterval(myInterval);
 }, 5000);
 
-// BOMB TIMER
+// BOMB TIMER - using setTimeout
 
 const bombTimer = setTimeout(() => {
   console.log("BOOM!")
@@ -24,6 +24,23 @@ const defuse = document.getElementById("defuseBtn");
 defuse.addEventListener("click", () => {
   clearTimeout(bombTimer);
 });
+
+// ARRAY
+
+const images = {
+  {
+  src: "image link",
+  alt: "image description",
+};
+{
+  src: "image link",
+  alt: "image description",
+};
+{
+  src: "image link",
+  alt: "image description",
+};
+
 
 
 
